@@ -1,19 +1,10 @@
 
 
-## 前言
-
-​	学习及面试笔记(写给自己)，不对的地方，请纠正。
-
 ## 面试细节
 
 - [关于简历](https://github.com/IdealSpring/JI-Notes/blob/master/doc/Interview/关于简历.md)
 
-- 关于面试 123456
-
-- [百度](<https://www.baidu.com/>)
-
-  
-
+- [关于面试](https://github.com/IdealSpring/JI-Notes/blob/master/doc/Interview/关于面试.md)
 
 
 Java
