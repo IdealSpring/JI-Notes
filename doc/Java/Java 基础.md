@@ -1,9 +1,23 @@
-### 目录
----
--  [1. 八种基本数据类型？](#)
-2. 面向对象的特征？
-3. 123
+## 目录
 
-1. 
-2. 
-3. 
+-  [ 八种基本数据类型？](#)
+-  [面向对象的特征？](#)
+-  [final, finally, finalize 区别？](#)
+-  [Error, Exception, RuntimeException 区别？](#)
+-  [5中常见的RuntimeExcetpion？](#)
+-  [int 和 Integer 区别？Integer 缓存范围？](#)
+-  [包装类, 装箱,  拆箱？](#)
+-  [String, StringBuilder, StringBuffer 异同？](#)
+-  [String 不可变的好处？](#)
+-  [new String("abc"); 创建几个对象？](#)
+-  [重载和重写区别？](#)
+-  [抽象类和接口区别？](#)
+-  [反射的用途及实现？](#)
+-  [equals 和 == 区别？](#)
+-  [hashCode 和 equals 区别和联系？](#)
+-  [Java 的序列化和反序列化？](#)
+-  [为什么 wait() 和 notify() 属于 Object类？](#)
+-  [JDK, JRE, JVM 区别与联系？](#)
+-  [](#)
+-  [](#)
+-  
