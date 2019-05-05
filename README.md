@@ -2,7 +2,7 @@
 
 ## 面试细节
 
-- [关于简历](https://github.com/IdealSpring/JI-Notes/blob/master/doc/Interview/关于简历.md)
+- [关于简历](/doc/Interview/关于简历.md)
 
 - [关于面试](https://github.com/IdealSpring/JI-Notes/blob/master/doc/Interview/关于面试.md)
 
