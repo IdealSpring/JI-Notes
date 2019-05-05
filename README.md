@@ -4,13 +4,13 @@
 
 - [关于简历](/doc/Interview/关于简历.md)
 
-- [关于面试](https://github.com/IdealSpring/JI-Notes/blob/master/doc/Interview/关于面试.md)
+- [关于面试](/doc/Interview/关于面试.md)
 
 
 Java
 ---
 
-- [Java 基础](https://github.com/IdealSpring/JI-Notes/blob/master/doc/Java/Java%20基础.md)
+- [Java 基础](/doc/Java/Java%20基础.md)
 - Java 容器
 - Java 并发
 - Java 虚拟机
