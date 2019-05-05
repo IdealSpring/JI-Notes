@@ -10,7 +10,7 @@
 Java
 ---
 
-- [Java 基础](https://github.com/IdealSpring/JI-Notes/blob/master/doc/Java/Java 基础.md)
+- [Java 基础](https://github.com/IdealSpring/JI-Notes/blob/master/doc/Java/Java%20基础.md)
 - Java 容器
 - Java 并发
 - Java 虚拟机
