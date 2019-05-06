@@ -4,7 +4,7 @@
 -  [2.面向对象的特征？](#2面向对象的特征)
 -  [3.面向对象和面向过程区别？](#3面向对象和面向过程区别)
 -  [4.final, finally, finalize 区别？](#4final,%20finally,%20finalize%20区别)
--  [5.Error, Exception, RuntimeException 区别？](#5Error, Exception, RuntimeException 区别)
+-  [5.Error, Exception, RuntimeException 区别？](#5Error,%20Exception,%20RuntimeException%20 区别)
 -  [6.5中常见的RuntimeExcetpion？](#)
 -  [7.int 和 Integer 区别？Integer 缓存范围？](#)
 -  [8.包装类, 装箱,  拆箱？](#)
@@ -37,8 +37,11 @@
 
 
 
-
 ### 3.面向对象和面向过程区别？
+
+
+
+### 4.final, finally, finalize 区别？
 
 
 
