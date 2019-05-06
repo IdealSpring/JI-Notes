@@ -3,13 +3,13 @@
 -  [ 1.八种基本数据类型？](#1八种基本数据类型)
 -  [2.面向对象的特征？](#2面向对象的特征)
 -  [3.面向对象和面向过程区别？](#3面向对象和面向过程区别)
--  [4.final, finally, finalize 区别？](#)
--  [Error, Exception, RuntimeException 区别？](#)
--  [5中常见的RuntimeExcetpion？](#)
--  [int 和 Integer 区别？Integer 缓存范围？](#)
--  [包装类, 装箱,  拆箱？](#)
--  [String, StringBuilder, StringBuffer 异同？](#)
--  [String 不可变的好处？](#)
+-  [4.final, finally, finalize 区别？](#4final,%20finally,%20finalize%20区别)
+-  [5.Error, Exception, RuntimeException 区别？](#5Error, Exception, RuntimeException 区别)
+-  [6.5中常见的RuntimeExcetpion？](#)
+-  [7.int 和 Integer 区别？Integer 缓存范围？](#)
+-  [8.包装类, 装箱,  拆箱？](#)
+-  [9.String, StringBuilder, StringBuffer 异同？](#)
+-  [10.String 不可变的好处？](#)
 -  [new String("abc"); 创建几个对象？](#)
 -  [重载和重写区别？](#)
 -  [抽象类和接口区别？](#)
@@ -28,7 +28,7 @@
 
 ------
 
-#### 1.八种基本数据类型？
+### 1.八种基本数据类型？
 
 
 
