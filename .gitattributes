@@ -1,3 +1,6 @@
-*.js linguist-language=java
+* text=auto
 *.css linguist-language=java
+*.less linguist-language=java
+*.js linguist-language=java
 *.html linguist-language=java
+*.sh linguist-language=java
