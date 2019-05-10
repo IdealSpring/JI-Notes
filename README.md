@@ -12,7 +12,7 @@ Java
 
 - [Java 基础](/doc/Java/Java%20基础.md)
 - [Java 容器](/doc/Java/Java%20容器.md)
-- [Java 并发](#/doc/Java/Java%20并发.md)
+- [Java 并发](/doc/Java/Java%20并发.md)
 - Java 虚拟机
 - Java I/O
 
