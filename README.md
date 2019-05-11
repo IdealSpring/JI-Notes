@@ -14,13 +14,13 @@ Java
 - [Java 容器](/doc/Java/Java%20容器.md)
 - [Java 并发](/doc/Java/Java%20并发.md)
 - [Java 虚拟机](/doc/Java/Java%20虚拟机.md)
-- [Java I/O](#/doc/Java/Java%20I/O)
+- [Java I/O](/doc/Java/Java%20I/O)
 
 数据结构与算法
 ---
 
-- 数据结构
-- 算法
+- [数据结构](/doc/DataStructureAndAlgorithm/数据结构.md)
+- [算法](/doc/DataStructureAndAlgorithm/算法.md)
 
 面向对象
 ---
