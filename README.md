@@ -20,7 +20,7 @@ Java
 ---
 
 - [数据结构](/doc/DataStructureAndAlgorithm/数据结构.md)
-- [算法](/doc/DataStructureAndAlgorithm/算法.md)
+- [基本算法](/doc/DataStructureAndAlgorithm/基本算法.md)
 
 面向对象
 ---
