@@ -25,8 +25,8 @@ Java
 面向对象
 ---
 
-- 面向对象思想
-- 设计模式
+- [面向对象思想](/doc/ObjectOriented/面向对象思想.md)
+- [设计模式](/doc/ObjectOriented/设计模式.md)
 
 网络
 ---
