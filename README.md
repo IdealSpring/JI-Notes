@@ -32,7 +32,7 @@ Java
 ---
 
 - [计算机网络](/doc/network/计算机网络.md)
-- [HTTP](#)
+- [HTTP](/doc/network/HTTP.md)
 
 操作系统
 ---
@@ -49,8 +49,8 @@ Java
 框架
 ---
 
-- [Spring/SpringMVC]()
-- Zookeeper
+- [Spring/SpringMVC](/doc/Frame/Spring.md)
+- [Zookeeper](/doc/Frame/Zookeeper.md)
 - MyBatis
 
 联系作者
