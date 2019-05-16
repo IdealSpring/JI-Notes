@@ -31,30 +31,22 @@
 
 ### 1.八种基本数据类型？
 
-byte - 1 bit
+- byte -- 1 bit；short -- 2 bit；int -- 4 bit；long -- 8 bit
 
-short - 2 bit
+- boolean -- 无；char -- 2 bit
 
-int - 4 bit
-
-long - 8 bit
-
-
-
-boolean - 无
-
-char - 2 bit
-
-
-
-float - 4 bit
-
-double - 8 bit
+- float -- 4 bit；double -- 8 bit
 
 
 ### 2.面向对象的特征？
 
+面向对象三大特性：继承、封装、多态。
 
+继承：是指子类继承父类的功能和方法，复用父类的代码。
+
+封装：将一个对象的属性私有化，对外界提供访问属性访问方法。
+
+多态：在程序中声明变量，变量指向其类型的子类或者实现类，在编译器不知道具体实现对象，只有在运行期知道具体实现类。
 
 ### 3.面向对象和面向过程区别？
 
