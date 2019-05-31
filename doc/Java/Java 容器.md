@@ -11,10 +11,9 @@
 - [9.HashMap 与 ConcurrentHashMap 区别？](#9HashMap-与-ConcurrentHashMap-区别)
 - [10.HashMap 的长度为什么是2的幂次方？](#10HashMap-的长度为什么是2的幂次方)
 - [11.多线程情况下 HashMap 死循环问题？](#11多线程情况下-HashMap-死循环问题)
-- [12.HashMap 出现 Hash DOS 攻击问题？](#12HashMap-出现-Hash-DOS-攻击问题)
-- [13.ConcurrentHashMap 工作原理？如何统计元素个数？](#13ConcurrentHashMap-工作原理如何统计元素个数)
-- [14.Comparable 和 Comparator 区别？](#14Comparable-和-Comparator-区别)
-- [15.如何选用集合？](#15如何选用集合)
+- [12.ConcurrentHashMap 工作原理？如何统计元素个数？](#12ConcurrentHashMap-工作原理如何统计元素个数)
+- [13.Comparable 和 Comparator 区别？](#13Comparable-和-Comparator-区别)
+- [14.如何选用集合？](#14如何选用集合)
 
 ---
 
@@ -66,31 +65,37 @@ List和Set属于Collection集合体系，最顶层是Iterable接口，它定义�
 
 ### 8.HashMap 与 HashSet 区别？
 
-HashSet底层是基于HashSet实现的，它的内部只使用HashMap的键存储数据，值
+HashSet底层是基于HashSet实现的，它的内部只使用HashMap的键存储数据，所有元素的值都是用同一个Object对象；HashSet增删改查操作都是调用HashMap的，在他的源码中代码量特别少。
 
 ### 9.HashMap 与 ConcurrentHashMap 区别？
 
+底层实现：都使用数组加链表或红黑树实现。使用拉链法或红黑树解决哈希冲突，当链表长度到达8，会转换成红					黑是。
 
+线程安全性：HashMap是线程不安全的，ConcurrentHashMap是线程安全的。jdk8之前使用的分段锁，对整个					桶数组进行分段加锁每一把锁只锁一段数据，多线程环境下，访问不同的段就不会发生竞争而等待。					jdk8中对每个桶数组也就是每个冲突链或红黑树使用锁，每个桶数组使用一个锁，这个更细粒度降低					多线程环境的冲突概率，提高并发访问效率。
 
 ### 10.HashMap 的长度为什么是2的幂次方？
 
+HashMap默认长度为16，也就是2的2次幂，hash % length == hash & (length - 1)，由于用与运算代替模加快计算效率。
 
 
 ### 11.多线程情况下 HashMap 死循环问题？
 
+在多线程条件下使用HashMap，当两个线程同时操作它，并同对其进行扩容操作，一个线程使用头插法将原来拉链的元素移动到新拉链的头部，此时如果cpu时间片用完，这个线程处于挂起状态。这个时候另一个线程同样这样操作，这个时候可能会产生循环拉链。当下次调用get方法时触发，这个时候便产生了死循环，使cpu使用率达到100%。
 
+### 12.ConcurrentHashMap 工作原理？如何统计元素个数？
 
-### 12.HashMap 出现 Hash DOS 攻击问题？
+1.8 中的 ConcurrentHashMap 数据结构和实现与 1.7 还是有着明显的差异。
 
+其中抛弃了原有的 Segment 分段锁，而采用了 CAS + synchronized 来保证并发安全性。
 
+### 13.Comparable 和 Comparator 区别？
 
-### 13.ConcurrentHashMap 工作原理？如何统计元素个数？
+Comparable在java.lang包下，有个compareTo方法。
 
+Comparator在java.util包下，有个compare方法。
 
+一般使用集合排序时需要自己实现这两个接口。
 
-### 14.Comparable 和 Comparator 区别？
+### 14.如何选用集合？
 
-
-
-### 15.如何选用集合？
-
+主要根据集合的特点来选用，比如我们需要根据键值获取到元素值时就选用Map接口下的集合，需要排序时选择TreeMap,不需要排序时就选择HashMap,需要保证线程安全就选用ConcurrentHashMap.当我们只需要存放元素值时，就选择实现Collection接口的集合，需要保证元素唯一时选择实现Set接口的集合比如TreeSet或HashSet，不需要就选择实现List接口的比如ArrayList或LinkedList，然后再根据实现这些接口的集合的特点来选用。
