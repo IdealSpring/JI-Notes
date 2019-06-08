@@ -53,7 +53,9 @@ Java
 - [Zookeeper](/doc/Frame/Zookeeper.md)
 - MyBatis
 
-联系作者
+参考资料
 ---
 
-- 邮箱：zhipeng_Tong@126.com
+- CS-Notes：https://github.com/CyC2018/CS-Notes
+- [JavaGuide](https://github.com/Snailclimb/JavaGuide)
+- [JCSprout](https://github.com/crossoverJie/JCSprout)
