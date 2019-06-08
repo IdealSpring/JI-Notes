@@ -57,5 +57,5 @@ Java
 ---
 
 - CS-Notes：https://github.com/CyC2018/CS-Notes
-- [JavaGuide](https://github.com/Snailclimb/JavaGuide)
-- [JCSprout](https://github.com/crossoverJie/JCSprout)
+- JavaGuide：https://github.com/Snailclimb/JavaGuide
+- JCSprout：https://github.com/crossoverJie/JCSprout
