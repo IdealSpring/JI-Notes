@@ -166,7 +166,5 @@ MVC中的，M是Model模型，V是View视图，C是Controller控制；SpringMVC�
 
 Spring是一种WEB开发框架，旨在提高开发人员的开发效率以及系统的可维护性。
 
-### 16.将一个类声明为Spring的 bean 的注解有哪些
-
 
 
