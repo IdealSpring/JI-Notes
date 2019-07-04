@@ -39,7 +39,7 @@
 
 ### 3.BeanFactory和ApplicationContext 有什么区别？
 
-无
+……
 
 ### 4.Spring Bean的生命周期？
 
