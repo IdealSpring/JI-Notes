@@ -65,7 +65,7 @@ ZAB协议有效的解决了ZK集群崩溃恢复以及主从同步数据的问题
 
 2）Follower把写入数据请求转发给Leader。
 
-3）Leader采用二阶段提交方式，先发送事务提议(Propose)广播给Follower。
+3）Leader采用二阶段提交方式，先广播事务提议(Propose)给Follower。
 
 4）Follower接到事务提议(Propose)后，写入日志成功后，返回ACK消息给Leader。
 
