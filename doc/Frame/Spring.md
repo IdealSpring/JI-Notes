@@ -19,13 +19,13 @@
 
 ### 1.Servlet生命周期？
 
-**1）加载和实例化：** 当Servlet容器启动时，或者容器检测到需要这个Servlet响应第一个请求时，容器加载并实例化Servlet实例。
+**1）加载和实例化：** 当Servlet容器启动时，或者容器检测到需要这个Servlet响应第一个请求时，容器加载并实例化这个Servlet。
 
 **2）初始化：** 在Servlet实例化之后，容器将调用Servlet的init()方法初始化这个对象。
 
-**3）处理请求：** Servlet容器调用Servlet的service()方法队请求进行处理。
+**3）处理请求：** Servlet容器调用Servlet的service()方法对请求进行处理。
 
-**4）Servlet销毁：** 容器会调用Servlet的destor()去销毁Servlet实例。
+**4）Servlet销毁：** 容器会调用Servlet的destory()去销毁Servlet实例。
 
 ### 2.转发和重定向区别？
 
