@@ -126,7 +126,7 @@ AOP底层是基于动态代理实现的；如果代理接口，使用JDK提供�
 
 ### 12.什么是MVC模式？
 
-MVC中的，M是Model模型，V是View视图，C是Controller控制；SpringMVC框架以请求为驱动，围绕Servlet而设计的，将请求转发给控制器，然后通过模型对象，分派器来展示请求结果视图。
+MVC中的，M是Model模型，V是View视图，C是Controller控制；SpringMVC框架以请求为驱动，围绕Servlet而设计的，将请求转发给控制器，然后通过模型对象填充视图中的数据，渲染后返回给客户端。
 
 ### 13.SpringMVC工作原理？
 
