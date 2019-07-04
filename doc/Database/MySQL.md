@@ -19,7 +19,7 @@
 
 1）InnoDB支持事务，MyISAM不支持事务。
 
-2）InnoDB锁的粒度是行级，MyISAM锁的粒度是表级。
+2）InnoDB既有表锁又有行锁，MyISAM锁的粒度是表级。
 
 3）InnoDB支持外键，MyISAM不支持外键。
 
