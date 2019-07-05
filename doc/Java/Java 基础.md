@@ -30,11 +30,11 @@
 
 ### 1.八种基本数据类型？
 
-- byte -- 1 bit；short -- 2 bit；int -- 4 bit；long -- 8 bit
+- byte -- 1 字节；short -- 2 字节；int -- 4 字节；long -- 8 字节
 
-- boolean -- 无；char -- 2 bit
+- boolean -- 无；char -- 2 字节
 
-- float -- 4 bit；double -- 8 bit
+- float -- 4 字节；double -- 8 字节
 
 
 ### 2.面向对象的特征？
